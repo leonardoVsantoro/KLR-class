@@ -1,11 +1,8 @@
-Of course! Here's a polished `README.md` with a clear note that the project is **work in progress**.
-
----
 
 # Kernel QDA
 
-This repository contains code for **Kernel Quadratic Discriminant Analysis**, a statistical method for classifying samples.
-The approach utilizes (Gaussian) kernel embeddings to construct likelihood-based statistic for multilabel classification.
+This repository contains code for **Gaussian Embeddings for Support Tensor Machines**, a statistical method for classifying samples.
+The approach utilizes kernel embeddings to construct likelihood-based statistic for multilabel classification, pivoting on tensor representation in the embedded space. 
 The implementation adaptively selects the kernel bandwith and regularisation ridge.
 
 > ⚠ **Work in progress:**
@@ -38,7 +35,7 @@ The implementation adaptively selects the kernel bandwith and regularisation rid
 ## 🔹 Main Components
 
 | -------------------------------------- | ------------------------------------------------------ |
-| `src/TwoSampleTests/classification.py` | main kernel likelihood ratio classifaction             |
+| `src/TwoSampleTests/classification.py` | main kernel likelihood ratio classification             |
 | -------------------------------------- | ------------------------------------------------------ |
 ---
 
@@ -52,7 +49,7 @@ The implementation adaptively selects the kernel bandwith and regularisation rid
 ## 🔹 References
 
 * [Santoro, Waghmare and Panaretos (2025) "From Two Sample Testing to Singular Gaussian Discrimination"](https://arxiv.org/abs/2505.04613)
-* Santoro, Waghmare and Panaretos (2025) "Likelihood Ratio Tests via Kernel Embeddings, to appear
-* Santoro, Waghmare and Panaretos (2025) "Kernel QDA by Gaussian Embeddings, to appear
+* Santoro, Waghmare and Panaretos (2025) "Likelihood Ratio Tests via Kernel Embeddings", to appear
+* Santoro, Waghmare and Panaretos (2025) "Gaussian Embeddings for Support Tensor Machines", in progress
 
 ---
