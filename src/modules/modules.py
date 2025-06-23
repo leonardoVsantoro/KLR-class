@@ -21,11 +21,6 @@ from scipy.ndimage import gaussian_filter# type: ignore
 import math
 from scipy.stats import vonmises_fisher
 
-
-
-# ---- Classification
-import matplotlib.pyplot as plt
-import numpy as np
 from matplotlib.colors import ListedColormap
 from matplotlib import colormaps as mpl_colormaps
 from sklearn.model_selection import train_test_split
@@ -48,3 +43,8 @@ from sklearn import svm
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.datasets import make_blobs
+from sklearn.preprocessing import LabelEncoder
+from prettytable import PrettyTable
+import time
+from traitlets import Bunch
+
