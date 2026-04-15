@@ -1,1 +1,12 @@
 tests/data/
+tex/*.aux
+tex/*.bbl
+tex/*.blg
+tex/*.fdb_latexmk
+tex/*.fls
+tex/*.log
+tex/*.out
+tex/*.synctex.gz
+__pycache__/
+*.pyc
+.DS_Store
