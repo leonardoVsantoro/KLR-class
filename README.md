@@ -154,7 +154,7 @@ clf = NystromKLRClassifier(n_landmarks=500).tune(X_train, y_train, X_val, y_val)
 |--------|----------|------|
 | KLR (tuned) | 45.1% | 311 s |
 | Nyström $m=1000$ (tuned) | **45.6%** | **19.7 s** |
-| Nyström $m=500$, $n=50\,000$ | 39.4% | 4.9 s |
+| Nyström $m=500$  | 39.4% | 4.9 s |
 
 Note: raw-pixel CIFAR accuracy is intentionally modest; the goal is to study
 computational behaviour and approximation quality, not to compete with
