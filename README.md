@@ -62,21 +62,20 @@ The bottom panel replicates the path on MNIST-784.
 │       └── kernel_class.py        # KLRClassifier, BaggingKLRClassifier,
 │                                  # NystromKLRClassifier
 ├── tests/
-│   ├── classification.ipynb       # exploratory notebook
-│   ├── bench_tabular.py           # Iris / Breast Cancer / Digits benchmarks
-│   ├── bench_mnist.py             # MNIST-784 benchmark (memory-safe)
-│   ├── bench_cifar.py             # CIFAR-10 benchmark + Nyström large-n
-│   ├── bench_nystrom.py           # Nyström accuracy vs n_landmarks
-│   ├── plot_decision_boundaries.py
-│   ├── plot_ridge_tradeoff.py
-│   ├── utils/
-│   │   ├── synthetic_data_generation.py
-│   │   └── run.py
-│   └── out/
-│       ├── images/                # saved figures
-│       └── *.txt                  # benchmark tables
-└── tex/
-    └── main.tex                   # paper draft
+    ├── classification.ipynb       # exploratory notebook
+    ├── bench_tabular.py           # Iris / Breast Cancer / Digits benchmarks
+    ├── bench_mnist.py             # MNIST-784 benchmark (memory-safe)
+    ├── bench_cifar.py             # CIFAR-10 benchmark + Nyström large-n
+    ├── bench_nystrom.py           # Nyström accuracy vs n_landmarks
+    ├── plot_decision_boundaries.py
+    ├── plot_ridge_tradeoff.py
+    ├── utils/
+    │   ├── synthetic_data_generation.py
+    │   └── run.py
+    └── out/
+        ├── images/                # saved figures
+        └── *.txt                  # benchmark tables
+
 ```
 
 ---
