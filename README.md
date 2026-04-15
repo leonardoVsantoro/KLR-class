@@ -178,7 +178,7 @@ All benchmark scripts implement layered memory guards:
 - Santoro, Waghmare & Panaretos (2025). *From Two Sample Testing to Singular
   Gaussian Discrimination*. [arXiv:2505.04613](https://arxiv.org/abs/2505.04613)
 - Santoro, Waghmare & Panaretos (2025). *Likelihood Ratio Tests via Kernel
-  Embeddings*. To appear.
+  Embeddings*. [arXiv:2508.07982](https://arxiv.org/abs/2508.07982)
 - Santoro (2026). *Kernel Likelihood Ratio Classifiers*. In progress.
 
 ---
